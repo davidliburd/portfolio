@@ -354,12 +354,15 @@
         <p class="lead mb-10">Have any questions? Don't hesitate to get in touch.</p>
         <div class="row gy-10 gx-lg-8 gx-xl-12">
           <div class="col-lg-12">
-            <form class="contact-form needs-validation" method="post" action="./assets/php/contact.php" novalidate>
+
+
+
+            <form action="http://formspree.io/davidliburd@gmail.com" id="contact-form" method="post" name="contact-form" class="contact-form needs-validation">
               <div class="messages"></div>
               <div class="row gx-4">
                 <div class="col-md-6">
                   <div class="form-floating mb-6">
-                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Jane" required>
+                    <input id="form_name" class="form-control" name="name" placeholder="First Name" required="" type="text">
                     <label for="form_name">First Name *</label>
                     <div class="valid-feedback"> Looks good! </div>
                     <div class="invalid-feedback"> Please enter your first name. </div>
@@ -368,7 +371,7 @@
                 <!-- /column -->
                 <div class="col-md-6">
                   <div class="form-floating mb-6">
-                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Doe" required>
+                    <input id="form_lastname"  name="surname" class="form-control" name="name" placeholder="Last Name" required="" type="text">
                     <label for="form_lastname">Last Name *</label>
                     <div class="valid-feedback"> Looks good! </div>
                     <div class="invalid-feedback"> Please enter your last name. </div>
@@ -377,7 +380,7 @@
                 <!-- /column -->
                 <div class="col-md-6">
                   <div class="form-floating mb-6">
-                    <input id="form_email" type="email" name="email" class="form-control" placeholder="jane.doe@example.com" required>
+                    <input id="form_email" class="form-control" name="_replyto" placeholder="email" required="" type="email">
                     <label for="form_email">Email *</label>
                     <div class="valid-feedback"> Looks good! </div>
                     <div class="invalid-feedback"> Please provide a valid email address. </div>
@@ -386,7 +389,7 @@
                 <!-- /column -->
                 <div class="col-md-6">
                   <div class="form-select-wrapper mb-6">
-                    <select class="form-select" id="form-select" name="subject-select" required>
+                    <select class="form-select" id="form-select" name="subject-select">
                       <option selected disabled value="">Select a subject</option>
                       <option value="Question">Question</option>
                       <option value="Pricing">Pricing</option>
@@ -399,8 +402,8 @@
                 <!-- /column -->
                 <div class="col-12">
                   <div class="form-floating mb-6">
-                    <textarea id="form_message" name="message" class="form-control" placeholder="Your message" style="height: 150px" required></textarea>
-                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Your message" style="height: 150px"></textarea>
+                    <label for="form_message">Message</label>
                     <div class="valid-feedback"> Looks good! </div>
                     <div class="invalid-feedback"> Please enter your messsage. </div>
                   </div>
