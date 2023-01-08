@@ -30822,9 +30822,10 @@ width: 1.75em;
 }
 
 
-#contact a[href^=tel] {
-    color: #e2b3ff;
-    text-decoration: underline;
+ a[href^=tel] {
+    color: #e2b3ff !important;
+    text-decoration: underline !important;
+     font-weight: 900;
 }
 
 
