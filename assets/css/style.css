@@ -2,12 +2,7 @@
 
 
 @charset "UTF-8";
-/*!
-Theme Name: Locus - Photography One Page Bootstrap 5 Template - Dark
-Theme URI: https://locus.elemisthemes.com/index.html
-Version: 1.0
-Author:	elemis
-*/
+
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700");
 :root {
   --bs-gray-100: #f8f9fa;
@@ -25341,12 +25336,6 @@ video.player {
   content: "\eb7f";
 }
 .uil-image-alt-slash:before {
-  content: "\eb80";
-}
-.uil-image-block:before {
-  content: "\eb81";
-}
-.uil-image-broken:before {
   content: "\eb82";
 }
 .uil-image-check:before {
@@ -26758,32 +26747,6 @@ video.player {
 }
 .uil-twitter-alt:before {
   content: "\ed58";
-}
-.uil-twitter:before {
-  content: "\ed59";
-}
-.uil-umbrella:before {
-  content: "\ed5a";
-}
-.uil-unamused:before {
-  content: "\ed5b";
-}
-.uil-underline:before {
-  content: "\ed5c";
-}
-.uil-university:before {
-  content: "\ed5d";
-}
-.uil-unlock-alt:before {
-  content: "\ed5e";
-}
-.uil-unlock:before {
-  content: "\ed5f";
-}
-.uil-upload-alt:before {
-  content: "\ed60";
-}
-.uil-upload:before {
   content: "\ed61";
 }
 .uil-usd-circle:before {
@@ -30851,3 +30814,18 @@ width: 1.75em;
 }
 
 }
+
+#contact a {
+    color: #e2b3ff;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+
+#contact a[href^=tel] {
+    color: #e2b3ff;
+    text-decoration: underline;
+}
+
+
+
